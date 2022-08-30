@@ -38,8 +38,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import { HomeCarousalComponent } from './home-body/home-carousal/home-carousal.component';
 import {MatExpansionModule} from '@angular/material/expansion';
-import { ExpansionPanelComponent } from './Home-body/expansion-panel/expansion-panel.component';
- 
+import {MatStepperModule} from '@angular/material/stepper';
+import { StepperComponent } from './stepper/stepper.component';
+import { ExpansionPanelComponent } from './home-body/expansion-panel/expansion-panel.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
 
 
 
@@ -64,7 +70,8 @@ import { ExpansionPanelComponent } from './Home-body/expansion-panel/expansion-p
     MarqueComponent,
     HomeBodyComponent,
     HomeCarousalComponent,
-    ExpansionPanelComponent
+    ExpansionPanelComponent,
+    StepperComponent,
     
 
   ],
@@ -83,7 +90,13 @@ import { ExpansionPanelComponent } from './Home-body/expansion-panel/expansion-p
     MatTreeModule,
     MatIconModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatStepperModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
    
   ],
   providers: [LoginService,UserService,EmigrantService,

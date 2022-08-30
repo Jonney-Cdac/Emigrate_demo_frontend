@@ -5,3 +5,9 @@
     border: none !important;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
   }
+  
+mat-card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  background: #f1efef 
+}   

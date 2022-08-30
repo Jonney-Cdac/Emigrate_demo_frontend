@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { PolicyComponent } from './policy/policy.component';
 import { RecrutingAgentLoginComponent } from './recruting-agent-login/recruting-agent-login.component';
 import { RegistrationStatusComponent } from './registration-status/registration-status.component';
+import { StepperComponent } from './stepper/stepper.component';
 import { AuthGuard } from './utility/app.gaurd';
 //import { AuthGuard } from './utility/auth.guard';
 
@@ -48,7 +49,8 @@ const routes: Routes = [
     pathMatch:'full',
     canActivate: [AuthGuard]
     //canActivate:[AuthGuard]
-  }
+  },
+ 
 ];
 
 @NgModule({
