@@ -13,7 +13,7 @@ export class EmigrantService {
     this.http = http;
    }
 
-   saveUserProfile(emigrant: Emigrant):Observable<any>{
+   saveUserProfile(emigrant: any):Observable<any>{
     console.log("In Emigrant Service")
    
     console.log("calling emigrant service");
